@@ -1,0 +1,66 @@
+/* Styles for the landing page container */
+body {
+  background-image:url("criss_cross.png")
+}
+
+.landing-page {
+  position: relative;
+  height: 400px; /* Set the desired height */
+  overflow: hidden;
+  margin-top:5rem;
+}
+
+/* Styles for the background image */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('hover_bike.png'); /* Replace with your image path */
+  background-size: cover;
+  filter: brightness(40%); /* Darken the background image */
+}
+
+/* Styles for the content within the container */
+.content {
+  position: relative;
+  z-index: 1; /* Bring the content above the background */
+  text-align: center;
+  padding-top: 2px;
+  color: #ffffff; /* Text color on the darkened background */
+}
+
+/* Styles for the heading */
+.title {
+  font-size: 3rem;
+  margin-top:0.1rem;
+  margin-bottom: 0px;
+}
+
+/* Styles for the description paragraph */
+.teaser {
+  font-size: 1rem;
+  margin-bottom: 10rem;
+  margin-top:0px;
+}
+
+/* Styles for the sign-up button */
+.btn {
+  background-color: #ff5722; /* Choose your button color */
+  color: #ececff;
+  padding: 15px 20px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 3em;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for the button */
+.btn:hover {
+  background-color: #ff4500; /* Change to a slightly darker color on hover */
+  color:#0f1f2d;
+  background-color:#11fa28;
+  transform: scale(1.3);
+}
