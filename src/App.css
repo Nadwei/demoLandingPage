@@ -1,39 +1,49 @@
 /* Styles for the landing page container */
-body {
-  background-image:url("criss_cross.png")
-}
-
 .landing-page {
   position: relative;
-  height: 400px; /* Set the desired height */
+  height: 100vh; /* Set the desired height */
   overflow: hidden;
-  margin-top:5rem;
+  background-image: url("hover_bike.png");
+  background-size: cover;
 }
 
-/* Styles for the background image */
-.background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('hover_bike.png'); /* Replace with your image path */
-  background-size: cover;
-  filter: brightness(40%); /* Darken the background image */
+
+
+@media (max-width: 600px) {
+  .landing-page {
+    background-size: contain; /* Adjust background size for smaller screens */
+    background-position: center; /* Center the background image */
+    background-repeat:none
+  }
 }
+
+@media (min-width: 380px) {
+  .btn {
+    margin-top:5em;
+  }
+}
+
+
 
 /* Styles for the content within the container */
 .content {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1; /* Bring the content above the background */
   text-align: center;
   padding-top: 2px;
   color: #ffffff; /* Text color on the darkened background */
+  background: #00000096;
+  border-radius: .5em;
+  width: 80%;
+  height: 60%;
 }
 
 /* Styles for the heading */
 .title {
-  font-size: 3rem;
+  font-size: 5rem;
   margin-top:0.1rem;
   margin-bottom: 0px;
 }
@@ -41,7 +51,6 @@ body {
 /* Styles for the description paragraph */
 .teaser {
   font-size: 1rem;
-  margin-bottom: 10rem;
   margin-top:0px;
 }
 
