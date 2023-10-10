@@ -1,0 +1,75 @@
+/* Styles for the landing page container */
+.landing-page {
+  position: relative;
+  height: 100vh; /* Set the desired height */
+  overflow: hidden;
+  background-image: url("hover_bike.png");
+  background-size: cover;
+}
+
+
+
+@media (max-width: 600px) {
+  .landing-page {
+    background-size: contain; /* Adjust background size for smaller screens */
+    background-position: center; /* Center the background image */
+    background-repeat:none
+  }
+}
+
+@media (min-width: 380px) {
+  .btn {
+    margin-top:5em;
+  }
+}
+
+
+
+/* Styles for the content within the container */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Bring the content above the background */
+  text-align: center;
+  padding-top: 2px;
+  color: #ffffff; /* Text color on the darkened background */
+  background: #00000096;
+  border-radius: .5em;
+  width: 80%;
+  height: 60%;
+}
+
+/* Styles for the heading */
+.title {
+  font-size: 5rem;
+  margin-top:0.1rem;
+  margin-bottom: 0px;
+}
+
+/* Styles for the description paragraph */
+.teaser {
+  font-size: 1rem;
+  margin-top:0px;
+}
+
+/* Styles for the sign-up button */
+.btn {
+  background-color: #ff5722; /* Choose your button color */
+  color: #ececff;
+  padding: 15px 20px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 3em;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for the button */
+.btn:hover {
+  background-color: #ff4500; /* Change to a slightly darker color on hover */
+  color:#0f1f2d;
+  background-color:#11fa28;
+  transform: scale(1.3);
+}
