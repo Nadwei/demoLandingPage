@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/demoLandingPage/static/css/main.b997cdb3.css",
+    "main.js": "/demoLandingPage/static/js/main.6a0905fd.js",
+    "static/js/787.6606bfd5.chunk.js": "/demoLandingPage/static/js/787.6606bfd5.chunk.js",
+    "static/media/hover_bike.png": "/demoLandingPage/static/media/hover_bike.fa916cc6726b3388a1dc.png",
+    "index.html": "/demoLandingPage/index.html",
+    "main.b997cdb3.css.map": "/demoLandingPage/static/css/main.b997cdb3.css.map",
+    "main.6a0905fd.js.map": "/demoLandingPage/static/js/main.6a0905fd.js.map",
+    "787.6606bfd5.chunk.js.map": "/demoLandingPage/static/js/787.6606bfd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b997cdb3.css",
+    "static/js/main.6a0905fd.js"
+  ]
+}
